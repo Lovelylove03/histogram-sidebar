@@ -7,8 +7,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the dataset
-file_path = '/mnt/data/full_df (1).csv'  # Update this to the correct file path
-df = pd.read_csv(file_path, delimiter='\t')  # Adjust delimiter if needed
+# Load the dataset
+link = "https://raw.githubusercontent.com/Lovelylove03/movie-testing-/main/df_ml%20-%20df_ml.csv"
+df = pd.read_csv(link)
+
 
 # Ensure the dataframe has been loaded correctly
 st.write(df.head())
