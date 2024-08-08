@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 # Load the dataset
 # Load the dataset
-link = "https://raw.githubusercontent.com/Lovelylove03/movie-testing-/main/df_ml%20-%20df_ml.csv"
+link = "https://raw.githubusercontent.com/Lovelylove03/histogram-sidebar/main/df_ml%20-%20df_ml.csv"
 df = pd.read_csv(link)
 
 
